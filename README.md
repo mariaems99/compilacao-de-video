@@ -1,45 +1,47 @@
-📺 Página de Compilação de Vídeos
-Este projeto é uma página HTML que reúne vídeos musicais selecionados, incorporados diretamente do YouTube. Ele foi desenvolvido para praticar a estrutura semântica correta em HTML e o uso de iframes para incorporar conteúdo externo.
+##Página de Compilação de Vídeos
+Este projeto consiste em uma página HTML que reúne vídeos musicais selecionados e incorporados diretamente do YouTube O desenvolvimento foca na prática de estrutura semântica e no uso de iframes para conteúdo externo
 
-🎯 Objetivo
-- Criar uma página que apresenta vídeos musicais em seções organizadas.
-- Utilizar elementos semânticos (<section>, <h2>, <p>, <iframe>) para estruturar o conteúdo.
-- Incorporar vídeos do YouTube de forma correta, usando o formato:
-https://www.youtube.com/embed/ID_DO_VIDEO
+##Objetivo
+Criar uma página que apresenta vídeos musicais em seções organizadas
 
-📂 Estrutura do Código
-- <main> → contém todo o conteúdo principal da página.
-- <h1> → título principal da página.
-- <p> → introdução logo abaixo do título.
-- <section> → cada vídeo é apresentado em uma seção com:
-- <h2> → título da música.
-- <p> → breve descrição do vídeo.
-- <iframe> → player do YouTube incorporado.
+Utilizar elementos semânticos como section h2 p e iframe para estruturar o conteúdo
 
-✅ Requisitos atendidos
-- Parágrafo introdutório logo abaixo do <h1>.
-- Três <section> abaixo do primeiro <p>.
-- Cada <section> começa com <h2>.
-- Cada <section> contém <p> como segundo filho.
-- Cada <section> contém <iframe> como terceiro filho.
-- Todos os <iframe> possuem title e width.
+Incorporar vídeos do YouTube de forma correta usando o formato embed
 
-🚀 Como usar
-- Clone este repositório:
-git clone https://github.com/seu-usuario/compilacao-de-video.git
-- Abra o arquivo index.html em qualquer navegador moderno.
-- A página exibirá três seções com vídeos musicais:
-- SZA - Broken Clocks
-- Alcione - Você me vira a cabeça
-- Beyoncé - Bigger
-🔗 Observações importantes
+##Estrutura do Código
+main contém todo o conteúdo principal da página
 
-- Alguns vídeos podem aparecer como “Vídeo indisponível”. Isso acontece quando o dono do canal bloqueia a incorporação em sites externos.
-- Nesse caso, o visitante pode clicar em “Assistir no YouTube” e abrir o vídeo diretamente na plataforma.
-- O atributo title nos iframes garante acessibilidade e ajuda nos testes automatizados.
-- O uso de allowfullscreen permite que o usuário assista em tela cheia.
+h1 título principal da página
 
-⚠️ Nota sobre GitHub e arquivos grandes
-- Inicialmente, os vídeos .mp4 foram adicionados ao repositório, mas o GitHub bloqueia arquivos maiores que 100 MB.
-- A solução foi remover os arquivos grandes e manter apenas o código HTML com os links de incorporação do YouTube.
-- Isso garante que o repositório fique leve e acessível, sem problemas de push
+p introdução logo abaixo do título
+
+section cada vídeo é apresentado em uma seção específica
+
+h2 título da música dentro da seção
+
+iframe player do YouTube incorporado
+
+##Requisitos Atendidos
+Parágrafo introdutório posicionado abaixo do h1
+
+Três seções de conteúdo abaixo do parágrafo inicial
+
+Cada seção iniciada por um h2 seguido de uma descrição
+
+Todos os iframes configurados com title e width para acessibilidade e layout
+
+##Como Usar
+Clone este repositório usando o comando git clone
+
+Abra o arquivo index html em seu navegador preferido
+
+A página exibirá as seções com os vídeos de SZA Alcione e Beyoncé
+
+##Observações Importantes
+Alguns vídeos podem apresentar indisponibilidade caso o proprietário bloqueie a incorporação em sites externos
+
+O atributo title nos iframes garante acessibilidade para leitores de tela
+
+O uso de allowfullscreen permite a visualização em tela cheia pelo usuário
+
+Arquivos pesados de vídeo mp4 foram removidos para manter o repositório leve e funcional conforme as regras do GitHub
