@@ -1,14 +1,18 @@
-##Página de Compilação de Vídeos
+Página de Compilação de Vídeos:
+
 Este projeto consiste em uma página HTML que reúne vídeos musicais selecionados e incorporados diretamente do YouTube O desenvolvimento foca na prática de estrutura semântica e no uso de iframes para conteúdo externo
 
-##Objetivo
+Objetivo:
+
 Criar uma página que apresenta vídeos musicais em seções organizadas
 
 Utilizar elementos semânticos como section h2 p e iframe para estruturar o conteúdo
 
 Incorporar vídeos do YouTube de forma correta usando o formato embed
 
-##Estrutura do Código
+
+Estrutura do Código:
+
 main contém todo o conteúdo principal da página
 
 h1 título principal da página
@@ -21,7 +25,9 @@ h2 título da música dentro da seção
 
 iframe player do YouTube incorporado
 
-##Requisitos Atendidos
+
+Requisitos Atendidos:
+
 Parágrafo introdutório posicionado abaixo do h1
 
 Três seções de conteúdo abaixo do parágrafo inicial
@@ -30,14 +36,17 @@ Cada seção iniciada por um h2 seguido de uma descrição
 
 Todos os iframes configurados com title e width para acessibilidade e layout
 
-##Como Usar
+Como Usar:
+
 Clone este repositório usando o comando git clone
 
 Abra o arquivo index html em seu navegador preferido
 
 A página exibirá as seções com os vídeos de SZA Alcione e Beyoncé
 
-##Observações Importantes
+
+Observações Importantes:
+
 Alguns vídeos podem apresentar indisponibilidade caso o proprietário bloqueie a incorporação em sites externos
 
 O atributo title nos iframes garante acessibilidade para leitores de tela
